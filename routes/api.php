@@ -3,6 +3,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\AuthController;
+use App\Http\Controllers\Api\ProductController;
+use App\Http\Controllers\Api\ProductImportController;
 
 
 Route::get('/user', function (Request $request) {
@@ -15,4 +17,8 @@ Route::middleware('auth:sanctum')->group(function () {
 
     Route::apiResource('products', ProductController::class)
         ->only(['index', 'store', 'show', 'destroy']);
+        Route::post('/products/import', [ProductImportController::class, 'store']);
+
+Route::get('/imports/{id}', [ProductImportController::class, 'show']);
 });
+
