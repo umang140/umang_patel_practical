@@ -51,6 +51,15 @@ class ProductImportController extends Controller
             ], 404);
         }
 
-        return response()->json($importLog);
+        return response()->json([
+            'id' => $importLog->id,
+            'filename' => $importLog->filename,
+            'status' => $importLog->status,
+            'total_rows' => $importLog->total_rows,
+            'imported_count' => $importLog->imported_count,
+            'failed_count' => $importLog->failed_count,
+            'errors' => $importLog->errors,
+            'created_at' => $importLog->created_at,
+        ]);
     }
 }

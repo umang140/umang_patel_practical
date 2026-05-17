@@ -1,0 +1,5 @@
+sku,name,price,stock,category
+PEN-001,Pen,10,50,Stationery
+BOOK-001,Book,100,20,Education
+BAG-001,Bag,500,10,Fashion
+PEN-001,Duplicate Pen,20,5,Stationery
