@@ -1,5 +1,53 @@
 sku,name,price,stock,category
-PEN-001,Pen,10,50,Stationery
-BOOK-001,Book,100,20,Education
-BAG-001,Bag,500,10,Fashion
-PEN-001,Duplicate Pen,20,5,Stationery
+PEN-001,Blue Pen,10,50,Stationery
+PEN-002,Black Pen,12,40,Stationery
+PEN-003,Red Pen,15,35,Stationery
+PENCIL-001,HB Pencil,5,100,Stationery
+PENCIL-002,2B Pencil,6,90,Stationery
+BOOK-001,Math Book,120,25,Education
+BOOK-002,Science Book,150,20,Education
+BOOK-003,English Book,130,18,Education
+BAG-001,School Bag,850,10,Fashion
+BAG-002,Laptop Bag,1500,8,Fashion
+BOTTLE-001,Water Bottle,250,30,Accessories
+BOTTLE-002,Thermo Bottle,550,15,Accessories
+ERASER-001,White Eraser,3,200,Stationery
+SHARPENER-001,Metal Sharpener,10,80,Stationery
+MARKER-001,Permanent Marker,35,45,Stationery
+MARKER-002,Whiteboard Marker,40,50,Stationery
+NOTE-001,Notebook Small,40,60,Education
+NOTE-002,Notebook Large,80,55,Education
+RULER-001,Plastic Ruler,15,75,Stationery
+RULER-002,Steel Ruler,30,40,Stationery
+CALC-001,Scientific Calculator,950,12,Electronics
+CALC-002,Basic Calculator,350,18,Electronics
+USB-001,USB Drive 16GB,450,25,Electronics
+USB-002,USB Drive 32GB,650,22,Electronics
+MOUSE-001,Wireless Mouse,700,14,Electronics
+KEYBOARD-001,Mechanical Keyboard,2500,6,Electronics
+HEADPHONE-001,Bluetooth Headphones,3200,5,Electronics
+CHARGER-001,Mobile Charger,600,20,Electronics
+CABLE-001,USB Cable,150,70,Electronics
+LAMP-001,Study Lamp,1200,9,Furniture
+CHAIR-001,Office Chair,4500,4,Furniture
+TABLE-001,Study Table,6500,3,Furniture
+FILE-001,Document File,25,100,Office
+FILE-002,Plastic Folder,20,120,Office
+CLIP-001,Paper Clips,10,300,Office
+STAPLER-001,Stapler Machine,180,35,Office
+TAPE-001,Transparent Tape,25,80,Office
+GLUE-001,Glue Stick,30,65,Office
+SCISSOR-001,Paper Scissor,90,25,Office
+COLOR-001,Water Color Set,220,15,Art
+COLOR-002,Crayon Box,180,18,Art
+BRUSH-001,Paint Brush Set,150,12,Art
+CANVAS-001,Canvas Board,300,10,Art
+DIARY-001,Leather Diary,450,8,Lifestyle
+CLOCK-001,Wall Clock,950,7,Home
+MUG-001,Coffee Mug,250,16,Home
+PLANT-001,Indoor Plant,350,11,Home
+FRAME-001,Photo Frame,280,14,Home
+LIGHT-001,LED Light,500,20,Home
+PEN-001,Duplicate Blue Pen,20,10,Stationery
+BOOK-004,Invalid Price Book,-50,5,Education
+BAG-003,Invalid Stock Bag,1200,-2,Fashion
